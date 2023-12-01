@@ -1,94 +1,25 @@
-
 {
-    "vsicons.dontShowNewVersionMessage": true,
-    "git.autofetch": true,
-    "workbench.colorCustomizations": {
-      "editorRuler.foreground": "#fac302"
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "redhat.telemetry.enabled": true,
-    "gitlens.defaultDateFormat": null,
-    "editor.tabSize": 2,
-    "terminal.external.osxExec": "iTerm.app",
-    "editor.fontLigatures": true,
-    "terminal.integrated.env.osx": {
-      "FIG_NEW_SESSION": "1"
-    },
-    "search.followSymlinks": false,
-    "editor.accessibilitySupport": "off",
-    "editor.wordWrapColumn": 120,
-    "editor.wordWrap": "bounded",
-    "[javascriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "terminal.explorerKind": "external",
-    "workbench.iconTheme": "vscode-icons",
-    "editor.guides.bracketPairs": "active",
-    "editor.rulers": [
-      120
-    ],
-    "editor.fontSize": 23,
-    "terminal.integrated.defaultProfile.osx": "zsh",
-    "settingsSync.keybindingsPerPlatform": false,
-    "editor.inlineSuggest.enabled": true,
-    "editor.tokenColorCustomizations": {
-      "textMateRules": [
-        {
-          "name": "One Dark italic",
-          "scope": [
-            "comment",
-            "entity.other.attribute-name",
-            "keyword",
-            "markup.underline.link",
-            "storage.modifier",
-            "storage.type",
-            "string.url",
-            "variable.language.super",
-            "variable.language.this"
-          ],
-          "settings": {
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "name": "One Dark italic reset",
-          "scope": [
-            "keyword.operator",
-            "keyword.other.type",
-            "storage.modifier.import",
-            "storage.modifier.package",
-            "storage.type.built-in",
-            "storage.type.function.arrow",
-            "storage.type.generic",
-            "storage.type.java",
-            "storage.type.primitive"
-          ],
-          "settings": {
-            "fontStyle": "Fira Code"
-          }
-        }
-      ]
-    },
-    "editor.fontFamily": "Fira Code",
-    "terminal.integrated.fontFamily": "DroidSansMono Nerd Font",
-    "terminal.integrated.fontSize": 18,
-    "editor.cursorWidth": 16,
-    "editor.wrappingIndent": "same",
-    "diffEditor.renderSideBySide": false,
-    "editor.formatOnSave": true,
-    "files.autoSave": "onFocusChange",
-    "terminal.integrated.cursorStyle": "underline",
-    "editor.cursorSmoothCaretAnimation": true,
-    "editor.cursorSurroundingLinesStyle": "all",
-    "editor.cursorStyle": "underline",
-    "workbench.colorTheme": "Cobalt2",
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "window.zoomLevel": -1
-  }
+  "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 22,
+  "editor.fontWeight": "400",
+  "editor.letterSpacing": 1.2,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.tabSize": 2,
+  "terminal.integrated.fontSize": 14,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.tslint": true,
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-light",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "workbench.colorTheme": "JetBrains Darcula Theme",
+  "template-string-converter.autoRemoveTemplateString": true
+}
